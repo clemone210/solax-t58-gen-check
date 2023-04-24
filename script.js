@@ -6,16 +6,16 @@ function checkSerialNumber() {
     var description = "";
     switch (machineCategory) {
         case "A":
-            description = "Master V1 (T-BATH 5.8)";
+            description = "T58 Master V1";
             break;
         case "B":
-            description = "Slave V1 (HV11550)";
+            description = "T58 Slave V1";
             break;
         case "E":
-            description = "Master V2 (T-BATH 5.8)";
+            description = "T58 Master V2";
             break;
         case "F":
-            description = "Slave V2 (HV11550)";
+            description = "T58 Slave V2";
             break;
         default:
             description = "Unknown machine category";

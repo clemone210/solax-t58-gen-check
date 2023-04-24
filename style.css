@@ -8,13 +8,14 @@ form {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
 }
 .result-container {
     clear: both;
     display: block;
     text-align:center;
     margin: 0 auto;
+    max-width: 600px;
 }
 #serial-number {
     width: 100%;
@@ -37,7 +38,7 @@ table {
     border-collapse: collapse;
     border: 1px solid #ddd; /* add a border and some padding to the table */
     padding: 10px;
-    width: 40%; /* set the width of the table */
+    width: 100%; /* set the width of the table */
 }
 
 th {
@@ -51,7 +52,7 @@ td {
     padding: 8px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     #serial-number {
         width: 50%;
     }
@@ -59,6 +60,12 @@ td {
         width: 50%;
     }
     #results {
-        width: 50%;
+        width: 100%;
     }
+}
+
+.compatibility-container {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 800px;
 }

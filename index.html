@@ -12,12 +12,15 @@
         <input type="text" id="serial-number">
         <br><br>
         <button type="button" onclick="checkSerialNumber()">Check</button>
+        <div class="compatibility-container">
+            <p id="compatibility-text">There is no difference in function and performance between V1 and V2 of T58. </br> In terms of compatibility, the T58 V1 and T58 V2 can work with each other, but the V1 master cannot upgrade the V2 slave, while the V2 master can upgrade the V1 slave.</p>
+        </div>
     </form>
     <div class="result-container">
         <table id="results">
             <tr>
-                <th>Machine category code </th>
-                <th>Product / generation</th>
+                <th>Machine category</th>
+                <th>Version</th>
             </tr>
         </table>
     </div>
