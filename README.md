@@ -1,5 +1,5 @@
 # solax-t58-gen-check
-Website to check the generation against the Solax T58 battery serial number.
+Website to check the generation of a [SOLAX POWER](https://www.solaxpower.com/) T58 (T-BAT 5.8 | HV11550) battery by entering the serial number of the battery.
 
 ***
 
