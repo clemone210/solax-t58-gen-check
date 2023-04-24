@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+form {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.result-container {
+    clear: both;
+    display: block;
+    text-align:center;
+    margin: 0 auto;
+}
+#serial-number {
+    width: 100%;
+    margin: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 12px 20px;
+    background-color: #FAB200;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+}
+table {
+    margin: 10px auto; /* center the table */
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* add a border and some padding to the table */
+    padding: 10px;
+    width: 40%; /* set the width of the table */
+}
+
+th {
+    background-color: #f2f2f2; /* give the table header a background color */
+    text-align: left; /* align the text in the header to the left */
+    padding: 8px;
+}
+
+td {
+    text-align: left; /* align the text in the cells to the left */
+    padding: 8px;
+}
+
+@media (min-width: 600px) {
+    #serial-number {
+        width: 50%;
+    }
+    button {
+        width: 50%;
+    }
+    #results {
+        width: 50%;
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="solax.ico">
+    <title>SOLAX T58 generation check</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>SOLAX T58 generation check</h2>
+        <p style="margin-top:10px">Enter the serial number of your SOLAX 5.8 battery to check which generation you have:</p> 
+        <input type="text" id="serial-number">
+        <br><br>
+        <button type="button" onclick="checkSerialNumber()">Check</button>
+    </form>
+    <div class="result-container">
+        <table id="results">
+            <tr>
+                <th>Machine category</th>
+                <th>Version</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
