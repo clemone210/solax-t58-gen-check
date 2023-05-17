@@ -20,7 +20,7 @@ function checkSerialNumber() {
         default:
             description = "Unknown machine category";
     }
-    results.push({category: machineCategory, description: description});
+    results.push({ serialNumber: serialNumber, category: machineCategory, description: description });
     displayResults();
 }
 
@@ -31,6 +31,9 @@ function displayResults() {
     }
     for (var i = 0; i < results.length; i++) {
         var tr = document.createElement("tr");
+        var tdSerialNumber = document.createElement("td");
+        tdSerialNumber.innerHTML = results[i].serialNumber;
+        tr.appendChild(tdSerialNumber);
         var tdCategory = document.createElement("td");
         tdCategory.innerHTML = results[i].category;
         tr.appendChild(tdCategory);
