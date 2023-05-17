@@ -41,3 +41,7 @@ document.getElementById("serial-number").addEventListener("keydown", function(ev
 });
 
 document.querySelector('button').addEventListener('click', checkSerialNumber);
+
+document.getElementById("dark-mode-toggle").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+});
